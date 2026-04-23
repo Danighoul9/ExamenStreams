@@ -132,7 +132,7 @@ public class TransporteServicio {
      * Municipios que tengan incidencias ordenados alfabéticamente.
      *
      * Streams: filter, map, collect
-     **/ //ARREGLAR 9
+     **/
 
     public Set<String> getMunicipiosConIncidencias(){
          return viajes.stream()
